@@ -209,6 +209,15 @@ class Policy {
         return 2;
     }
 
+    /**
+     * Number of blocks a transaction is valid.
+     * @type {number}
+     * @constant
+     */
+    static get TRANSACTION_VALIDITY_WINDOW() {
+        return 120; // Blocks
+    }
+
 
     /* NIPoPoW parameters */
 

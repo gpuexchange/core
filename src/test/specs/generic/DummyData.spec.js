@@ -37,7 +37,7 @@ Block.GENESIS = new Block(
         new Hash(null),
         Hash.fromBase64('DldRwCblQ7Loqy6wYJnaodHl30d3j3eH+qtFzfEv46g='),
         Hash.fromBase64('nVtxMP3RlCdAbx1Hd4jsH4ZsZQsu/1UK+zUFsUNWgbs='),
-        Hash.fromBase64('7E/ZbeqHFj4u5IiMelOEchIneFnZPD6bcb3PPK9/0lw='),
+        Hash.fromBase64('FPzkj0aVfY9tBpMcttyj6nw7P2qS/KoGZE/52/Mp9ls='),
         BlockUtils.difficultyToCompact(1),
         1,
         0,

@@ -534,6 +534,14 @@ class Block {
 
     /**
      * @param {SerialBuffer} [buf]
+     * @returns {Hash}
+     */
+    hashSync(buf) {
+        return this._header.hashSync(buf);
+    }
+
+    /**
+     * @param {SerialBuffer} [buf]
      * @returns {Promise.<Hash>}
      */
     pow(buf) {
@@ -541,6 +549,7 @@ class Block {
     }
 
 }
+Block.TRUNCATED_HASH_SIZE = 4 /* bytes */;
 Block.TIMESTAMP_DRIFT_MAX = 600 /* seconds */; // 10 minutes
 Class.register(Block);
 
